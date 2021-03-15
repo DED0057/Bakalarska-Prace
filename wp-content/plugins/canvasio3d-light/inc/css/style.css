@@ -1,0 +1,25 @@
+.caHandDiv{
+	display:block;
+	position:relative;
+	width:100%;
+	height:auto;	
+}
+.caHpIcon{
+	background: url(caHandPointer.png) 0 0;
+	position:absolute; display:none; pointer-events:none;
+	left:0; top:0; width:110px; height:72px; text-align:center;
+	-webkit-animation: handAction 1s infinite  alternate;
+	animation: handAction 1s infinite  alternate;
+	z-index:99;
+}
+.canvasio3D{
+	display:none;
+}
+@-webkit-keyframes handAction{
+	0% { transform: translateY(0); }
+	100% { transform: translateY(-16px); }
+}
+@keyframes handAction{
+	0% { transform: translateY(0); }
+	100% { transform: translateY(-16px); }
+}

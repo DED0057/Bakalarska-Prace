@@ -1,0 +1,15 @@
+{
+  "name": "dimage-360",
+  "version": "1.0.0",
+  "description": "Dimage 360 is a plugin to embed a 360 view on your wordpress website",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "6.1.0"
+  }
+}

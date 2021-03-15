@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <projectName>SuperbAutoEdit</projectName>
+  <projectConfig>F:\Skola\Vysoka\Bakalarka\Fotky Modelu Aut\zrcadlovka360\1.3. superb i20\superb\selection\afterAutoRetouch\edited\SuperbAutoEdit\SuperbAutoEdit.xml</projectConfig>
+  <interface>
+    <clipboxPreview>True</clipboxPreview>
+    <clipboxFitImages>False</clipboxFitImages>
+    <showCenterGuide>True</showCenterGuide>
+    <showGridGuide>False</showGridGuide>
+    <showImageEdges>True</showImageEdges>
+    <showToolbarGuide>False</showToolbarGuide>
+    <lockWatermarks>False</lockWatermarks>
+    <spotWheelSpeedDown>False</spotWheelSpeedDown>
+  </interface>
+  <publishing>
+    <publishPath>F:\Skola\Vysoka\Bakalarka\Fotky Modelu Aut\zrcadlovka360\1.3. superb i20\superb\selection\afterAutoRetouch\edited\SuperbAutoEdit\published</publishPath>
+    <viewName>SuperbAutoEdit</viewName>
+    <skinType>0</skinType>
+    <viewerWidth>600</viewerWidth>
+    <viewerHeight>450</viewerHeight>
+    <imageScale>0.93</imageScale>
+    <imageFormat>2</imageFormat>
+    <jpgQuality>100</jpgQuality>
+    <jpgQualityHighres>100</jpgQualityHighres>
+    <cropMarginScale>4</cropMarginScale>
+    <cropMarginTop>0</cropMarginTop>
+    <cropMarginLeft>0</cropMarginLeft>
+    <cropMarginBottom>0</cropMarginBottom>
+    <cropMarginRight>0</cropMarginRight>
+    <cropFillColor>-1</cropFillColor>
+    <viewerBackColor>-1</viewerBackColor>
+    <hideWatermarks>False</hideWatermarks>
+    <fittedImages>True</fittedImages>
+    <skipImagePublishing>False</skipImagePublishing>
+    <launchLocalBrowser>True</launchLocalBrowser>
+    <launchRemotelBrowser>False</launchRemotelBrowser>
+    <testBrowser>Mozilla Firefox</testBrowser>
+    <publishTemplate>JavaScript API</publishTemplate>
+    <loopGif>True</loopGif>
+    <publishGifPath>
+    </publishGifPath>
+    <gifLoopPeriod>0</gifLoopPeriod>
+    <gifQuality>16</gifQuality>
+    <launchGifInBrowser>True</launchGifInBrowser>
+    <useGAEventTracking>False</useGAEventTracking>
+    <addGATrackingScript>False</addGATrackingScript>
+    <GATrackingAlias>
+    </GATrackingAlias>
+    <GATrackingScriptId>
+    </GATrackingScriptId>
+  </publishing>
+  <canvas>
+    <canvasItem>
+      <type>Spotter.TextWatermark</type>
+      <positionX>390</positionX>
+      <positionY>70</positionY>
+      <angle>0</angle>
+      <border>9</border>
+      <borderColor>1056964608</borderColor>
+      <text>TreeFiddy+1</text>
+      <color>1509949439</color>
+      <blur>76</blur>
+      <fontFamily>Tahoma</fontFamily>
+      <fontSize>46</fontSize>
+      <fontStyle>Bold</fontStyle>
+    </canvasItem>
+  </canvas>
+  <effects>
+    <effect>
+      <type>Spotter.ImageEffectBrighness</type>
+      <brightness>-16</brightness>
+      <preview>True</preview>
+    </effect>
+    <effect>
+      <type>Spotter.ImageEffectContrast</type>
+      <contrast>6</contrast>
+      <preview>True</preview>
+    </effect>
+  </effects>
+  <connections>
+    <activeConnection>Do not upload</activeConnection>
+  </connections>
+</settings>

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/1_DSC_6994.jpg" />
+    <userInterface showZoomButtons="true" showToolTips="true" showHotspotsButton="true" showFullScreenButton="true" showTogglePlayButton="true" showArrows="true" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" />
+    <control dragSpeed="0.15" doubleClickZooms="false" disableMouseControl="false" showHighresOnFullScreen="false" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="true" doubleClickFullscreen="false" zoomSteps="3" zoomSpeed="300" singleClickZooms="true" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="9" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" />
+  </settings>
+  <hotspots>
+    <hotspot id="interior" renderMode="3" indicatorImage="circ-cross-thin-blue.svg" activateOnClick="true" effects="scaleUp">
+      <spotinfo src="images/spots/DSC_6999.jpg" imgBkColor="#FFFFFF" clickAction="5" clickData="23_label" clickDataParam="2" />
+    </hotspot>
+    <hotspot id="booth" renderMode="3" indicatorImage="circ-cross-thin-blue.svg" activateOnClick="true">
+      <spotinfo src="images/spots/DSC_6995.jpg" imgBkColor="#C0C0C0" clickAction="5" clickData="13_image" clickDataParam="2" />
+    </hotspot>
+    <hotspot id="engine" renderMode="3" indicatorImage="circ-cross-thin-blue.svg" activateOnClick="true">
+      <spotinfo src="images/spots/DSC_7000.jpg" imgBkColor="#C0C0C0" clickAction="5" clickData="1_image" clickDataParam="2" />
+    </hotspot>
+  </hotspots>
+  <images rows="1">
+    <image src="images/1_DSC_6994.jpg" label="1_image">
+      <hotspot source="interior" offsetX="948.3333" offsetY="406.6667" />
+      <hotspot source="engine" offsetX="941.6666" offsetY="756.6666" />
+    </image>
+    <image src="images/2_DSC_6937.jpg">
+      <hotspot source="interior" offsetX="941.6666" offsetY="353.3333" />
+      <hotspot source="engine" offsetX="668.3333" offsetY="733.3333" />
+    </image>
+    <image src="images/3_DSC_6939.jpg">
+      <hotspot source="interior" offsetX="931.6666" offsetY="290" />
+      <hotspot source="engine" offsetX="461.6667" offsetY="656.6666" />
+    </image>
+    <image src="images/4_DSC_6942.jpg">
+      <hotspot source="interior" offsetX="918.3333" offsetY="283.3333" />
+      <hotspot source="engine" offsetX="348.3333" offsetY="553.3333" />
+    </image>
+    <image src="images/5_DSC_6947.jpg">
+      <hotspot source="interior" offsetX="884.9999" offsetY="286.6667" />
+      <hotspot source="engine" offsetX="301.6667" offsetY="480" />
+    </image>
+    <image src="images/6_DSC_6948.jpg">
+      <hotspot source="interior" offsetX="908.3333" offsetY="343.3333" />
+      <hotspot source="engine" offsetX="261.6667" offsetY="463.3333" />
+    </image>
+    <image src="images/7_DSC_6952.jpg">
+      <hotspot source="interior" offsetX="828.3333" offsetY="383.3333" />
+      <hotspot source="engine" offsetX="308.3333" offsetY="456.6667" />
+    </image>
+    <image src="images/8_DSC_6955.jpg">
+      <hotspot source="interior" offsetX="691.6666" offsetY="416.6667" />
+      <hotspot source="engine" offsetX="308.3333" offsetY="456.6667" />
+    </image>
+    <image src="images/9_DSC_6957.jpg">
+      <hotspot source="interior" offsetX="571.6666" offsetY="406.6667" />
+      <hotspot source="booth" offsetX="1818.333" offsetY="520" />
+    </image>
+    <image src="images/10_DSC_6958.jpg">
+      <hotspot source="interior" offsetX="475" offsetY="366.6667" />
+      <hotspot source="booth" offsetX="1698.333" offsetY="536.6666" />
+    </image>
+    <image src="images/11_DSC_6960.jpg">
+      <hotspot source="interior" offsetX="1045" offsetY="333.3333" />
+      <hotspot source="booth" offsetX="1538.333" offsetY="560" />
+    </image>
+    <image src="images/12_DSC_6963.jpg">
+      <hotspot source="interior" offsetX="998.3333" offsetY="353.3333" />
+      <hotspot source="booth" offsetX="1351.667" offsetY="660" />
+    </image>
+    <image src="images/13_DSC_6965.jpg" label="13_image">
+      <hotspot source="interior" offsetX="998.3333" offsetY="356.6667" />
+      <hotspot source="booth" offsetX="1098.333" offsetY="723.3333" />
+    </image>
+    <image src="images/14_DSC_6968.jpg">
+      <hotspot source="interior" offsetX="914.9999" offsetY="403.3333" />
+      <hotspot source="booth" offsetX="711.6666" offsetY="710" />
+    </image>
+    <image src="images/15_DSC_6970.jpg">
+      <hotspot source="interior" offsetX="1468.333" offsetY="430" />
+      <hotspot source="booth" offsetX="428.3333" offsetY="710" />
+    </image>
+    <image src="images/16_DSC_6972.jpg" label="16_image">
+      <hotspot source="interior" offsetX="1435" offsetY="430" />
+      <hotspot source="booth" offsetX="265" offsetY="596.6666" />
+    </image>
+    <image src="images/17_DSC_6973.jpg">
+      <hotspot source="interior" offsetX="1351.667" offsetY="400" />
+      <hotspot source="booth" offsetX="145" offsetY="553.3333" />
+    </image>
+    <image src="images/18_DSC_6976.jpg">
+      <hotspot source="interior" offsetX="1265" offsetY="396.6667" />
+      <hotspot source="booth" offsetX="151.6667" offsetY="473.3333" />
+    </image>
+    <image src="images/19_DSC_6980.jpg">
+      <hotspot source="interior" offsetX="1195" offsetY="390" />
+      <hotspot source="booth" offsetX="111.6667" offsetY="413.3333" />
+      <hotspot source="engine" offsetX="1738.333" offsetY="483.3333" />
+    </image>
+    <image src="images/20_DSC_6981.jpg">
+      <hotspot source="interior" offsetX="1118.333" offsetY="396.6667" />
+      <hotspot source="engine" offsetX="1751.667" offsetY="533.3333" />
+    </image>
+    <image src="images/21_DSC_6984.jpg">
+      <hotspot source="interior" offsetX="1128.333" offsetY="390" />
+      <hotspot source="engine" offsetX="1681.667" offsetY="576.6666" />
+    </image>
+    <image src="images/22_DSC_6985.jpg">
+      <hotspot source="interior" offsetX="1075" offsetY="376.6667" />
+      <hotspot source="engine" offsetX="1611.667" offsetY="610" />
+    </image>
+    <image src="images/23_DSC_6988.jpg" label="23_label">
+      <hotspot source="interior" offsetX="1035" offsetY="370" />
+      <hotspot source="engine" offsetX="1475" offsetY="663.3333" />
+    </image>
+    <image src="images/24_DSC_6989.jpg">
+      <hotspot source="interior" offsetX="944.9999" offsetY="410" />
+      <hotspot source="engine" offsetX="1148.333" offsetY="726.6666" />
+    </image>
+  </images>
+</config>

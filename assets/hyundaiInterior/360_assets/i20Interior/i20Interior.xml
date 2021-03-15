@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/DSC_7209.jpg" />
+    <userInterface showZoomButtons="true" showToolTips="true" showHotspotsButton="true" showFullScreenButton="true" showTogglePlayButton="true" showArrows="true" toolbarAlign="center" toolbarBackColor="#FFFFFF" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="#ffffff" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" />
+    <control dragSpeed="0.13" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="7" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" />
+  </settings>
+  <hotspots>
+    <hotspot id="volant" renderMode="0" indicatorImage="circ-cross-thin-blue.svg">
+      <spotinfo txt="Volant z pravé slepičí kůže&#xD;&#xA;- Nabízí řadu (dvě) tlačítek, které nic nedělají a jen výrobci přišlo na obtíž je vyndat. &#xD;&#xA;- volant je krásně kluzký, takže se nemusíte bát, že byste se za jízdy nudili" css="color:#333333;width:200px;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
+    </hotspot>
+    <hotspot id="infotainment" renderMode="0" indicatorImage="circ-cross-thin-blue.svg">
+      <spotinfo txt="- infotainment nabízí obrovský 5&quot; displej s několika funkcemi, jako jsou rádio.. a tak." css="color:#333333;width:200px;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
+    </hotspot>
+    <hotspot id="zadnisklo" renderMode="0" indicatorImage="circ-cross-thin-blue.svg">
+      <spotinfo txt="Zadní sklo s vyhříváním a samostatnými ostřikovači. Cyklisté pro vás tedy nebudou žádným protivníkem." css="color:#333333;width:200px;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
+    </hotspot>
+    <hotspot id="shiftstick" renderMode="0" indicatorImage="circ-cross-thin-blue.svg">
+      <spotinfo txt="5 stupňová převodovka" css="color:#333333;width:200px;padding:15px 15px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
+    </hotspot>
+  </hotspots>
+  <images rows="1" highresWidth="680" highresHeight="450">
+    <image src="images/DSC_7209.jpg">
+      <highres src="images/highres/DSC_7209.jpg" />
+    </image>
+    <image src="images/DSC_7208.jpg">
+      <highres src="images/highres/DSC_7208.jpg" />
+    </image>
+    <image src="images/DSC_7201.jpg">
+      <hotspot source="volant" offsetX="463" offsetY="244" />
+      <highres src="images/highres/DSC_7201.jpg" />
+    </image>
+    <image src="images/DSC_7202.jpg">
+      <hotspot source="volant" offsetX="245" offsetY="217" />
+      <hotspot source="infotainment" offsetX="446" offsetY="213" />
+      <hotspot source="shiftstick" offsetX="416" offsetY="360" />
+      <highres src="images/highres/DSC_7202.jpg" />
+    </image>
+    <image src="images/DSC_7203.jpg">
+      <hotspot source="volant" offsetX="61" offsetY="222" />
+      <hotspot source="infotainment" offsetX="273" offsetY="200" />
+      <hotspot source="shiftstick" offsetX="256" offsetY="358" />
+      <highres src="images/highres/DSC_7203.jpg" />
+    </image>
+    <image src="images/DSC_7204.jpg">
+      <hotspot source="infotainment" offsetX="132" offsetY="208" />
+      <hotspot source="shiftstick" offsetX="118" offsetY="368" />
+      <highres src="images/highres/DSC_7204.jpg" />
+    </image>
+    <image src="images/DSC_7205.jpg">
+      <highres src="images/highres/DSC_7205.jpg" />
+    </image>
+    <image src="images/DSC_7206.jpg">
+      <highres src="images/highres/DSC_7206.jpg" />
+    </image>
+    <image src="images/DSC_7207.jpg">
+      <highres src="images/highres/DSC_7207.jpg" />
+    </image>
+    <image src="images/DSC_7212.jpg">
+      <hotspot source="zadnisklo" offsetX="542" offsetY="177" />
+      <highres src="images/highres/DSC_7212.jpg" />
+    </image>
+    <image src="images/DSC_7211.jpg">
+      <hotspot source="zadnisklo" offsetX="326" offsetY="171" />
+      <highres src="images/highres/DSC_7211.jpg" />
+    </image>
+    <image src="images/DSC_7210.jpg">
+      <hotspot source="zadnisklo" offsetX="85" offsetY="168" />
+      <highres src="images/highres/DSC_7210.jpg" />
+    </image>
+  </images>
+</config>

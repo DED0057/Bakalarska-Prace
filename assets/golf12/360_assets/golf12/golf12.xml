@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/DSC_7237.jpg" />
+    <userInterface showZoomButtons="true" showToolTips="true" showHotspotsButton="true" showFullScreenButton="true" showTogglePlayButton="true" showArrows="true" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="#FFFFFF" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" />
+    <control dragSpeed="0.13" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="7" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" />
+  </settings>
+  <hotspots />
+  <images rows="1" highresWidth="1920" highresHeight="1272">
+    <image src="images/DSC_7237.jpg">
+      <highres src="images/highres/DSC_7237.jpg" />
+    </image>
+    <image src="images/DSC_7239.jpg">
+      <highres src="images/highres/DSC_7239.jpg" />
+    </image>
+    <image src="images/DSC_7241.jpg">
+      <highres src="images/highres/DSC_7241.jpg" />
+    </image>
+    <image src="images/DSC_7243.jpg">
+      <highres src="images/highres/DSC_7243.jpg" />
+    </image>
+    <image src="images/DSC_7245.jpg">
+      <highres src="images/highres/DSC_7245.jpg" />
+    </image>
+    <image src="images/DSC_7247.jpg">
+      <highres src="images/highres/DSC_7247.jpg" />
+    </image>
+    <image src="images/DSC_7249.jpg">
+      <highres src="images/highres/DSC_7249.jpg" />
+    </image>
+    <image src="images/DSC_7251.jpg">
+      <highres src="images/highres/DSC_7251.jpg" />
+    </image>
+    <image src="images/DSC_7253.jpg">
+      <highres src="images/highres/DSC_7253.jpg" />
+    </image>
+    <image src="images/DSC_7255.jpg">
+      <highres src="images/highres/DSC_7255.jpg" />
+    </image>
+    <image src="images/DSC_7257.jpg">
+      <highres src="images/highres/DSC_7257.jpg" />
+    </image>
+    <image src="images/DSC_7259.jpg">
+      <highres src="images/highres/DSC_7259.jpg" />
+    </image>
+  </images>
+</config>

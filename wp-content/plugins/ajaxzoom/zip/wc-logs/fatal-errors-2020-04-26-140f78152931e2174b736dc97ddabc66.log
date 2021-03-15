@@ -1,0 +1,8 @@
+2020-04-26T15:01:04+00:00 CRITICAL Uncaught Error: Call to undefined function split() in C:\xampp\htdocs\baka-wp\wp-content\plugins\ajaxzoom\includes\class.ajaxzoom.php:2082
+Stack trace:
+#0 C:\xampp\htdocs\baka-wp\wp-content\plugins\ajaxzoom\includes\class.ajaxzoom.php(2063): Ajaxzoom::get_image('2_42')
+#1 C:\xampp\htdocs\baka-wp\wp-content\plugins\ajaxzoom\includes\class.ajaxzoom.php(1028): Ajaxzoom::get_images(Array)
+#2 C:\xampp\htdocs\baka-wp\wp-content\plugins\ajaxzoom\preview\iframe.php(95): Ajaxzoom::display_example_32(Array)
+#3 {main}
+  thrown in C:\xampp\htdocs\baka-wp\wp-content\plugins\ajaxzoom\includes\class.ajaxzoom.php on line 2082
+
