@@ -1,1 +1,49 @@
 
+# Project: ThreeFiddy+10 Viewer
+# Author:  Matyas Dedek - DED0057
+# Date:    01.05.2020
+## Popis a dulezite informace
+
+POZOR: instalace není nutná. Z důvodu úspory velikosti aplikace neobsahuje media soubory. Jedná se pouze o kostru systému. Pro otestování prosím navštivte hostovanou stránku s implementací tohoto projektu na http://88.100.114.230/baka-wp/ . Prosím omluvte pomalejší načítání a responzivitu. Hosting se nachází na mém osobním počítači. Z tohoto důvodu nebude stránka dostupná během nočních hodin.
+
+Testovací přihlašovací údaje: 
+
+Pro administrační portál navštivte http://88.100.114.230/baka-wp/dashboard
+Uživatel s rolí prodejce: username: Vendor123 , password: Vendor123
+Uživatel s neomezenými možnostmi a rolí administrator: username: admin , password: admin123
+
+
+> Jedná se o aplikaci postavenou na CMS wordpress.org. Umožňuje uživatelům s rolí prodejce spravovat a vytvářet produkty. Uživatelé se základní rolí mohou vytvářet a spravovat  své objednávky. 
+Prodejci mají možnost ke svým produktům přidávat prostorové a klasické fotografie. Návod, jak vytvořit a implementovat prostorové fotografie je v samostatné příručce 360_handbook.pdf.  
+>Využívá těchto pluginů:
+
+> WooCommerce https://wordpress.org/plugins/woocommerce
+
+> AjaxZoom https://www.ajax-zoom.com/index.php?cid=modules&module=woocommerce
+
+> WebRotate360 https://www.webrotate360.com/products/cms-and-e-commerce-plugins/plugin-for-wordpress-and-woocommerce.aspx
+
+
+## Pozadavky a instalace
+
+> Požadavky: 
+
+- Hostovací služba pro aplikaci s Apache a MySQL. Funkčnost otestována v prostředí XAMPP, dostupném z https://www.apachefriends.org/index.html.
+- Ioncube loader dostupný z https://www.ioncube.com/loaders.php
+
+> Instalace:
+1. Extrahujte aplikaci do složky s projekty. V xamppu do složky htdocs nacházející se  v kořenovém adresáři.
+2. Importujte dump databáze do svého MySQL serveru. V případě xampp je to PhPMyAdmin. Dále je nutné v databází změnit pole hostname. Tato pole se nachází v tabulce wp_options a mají option_id  hodnoty 1 a 2. Tato pole změňte na váš hostname a jméno složky projektu ve vašem htdocs adresáři . Většinou se jedná o http://localhost/nazev_projektu.
+4. Spusťte projekt pod adresou, kterou jste zadani do pole hostname.
+
+> Další funkcionality:
+
+StartMonitoring.ps1 + PSdroplet_baka.exe
+- Před spuštěním je nutné mít nainstalován photoshop a skript spolu s dropletem vložit do projektového adresáře (./baka_wp).
+- Systém obsahuje také možnost automatické úpravy fotek. V kořenovém adresáři najdete powershell skript se jménem StartMonitoring.ps1 a photoshop droplet se jmenem PSdroplet_baka.exe . 
+- Skript nepřetržitě ověřuje složku, kde očekává nové obrázky. Pokud zjistí, že je nějaký obrázek nový, tak jej jako argument pošle dropletu, který upraví barvy a velikost obrázku na <3.2MPx.
+- Bohužel toto řešení není ideální a musel jsem od něj upustit. Hlavní důvod je ten, že skript není schopen zvládat velký počet snímků najednou. 
+  Dalším problémem jsou časté hlášky programu photoshop, které zastaví celou automatizaci a je třeba je manuálně odkliknout.
+
+Webrotate projekty
+- Každý z projektu obsahuje složku published, ve které se nachází html soubor s implementací. Funkčnost je otestována v prohlížeči Mozilla Firefox. V případě problému prosím zkuste v nastavení prohlížeče (about:config v adresním řádku) změnit hodnotu privacy.file_unique_origin na false.
